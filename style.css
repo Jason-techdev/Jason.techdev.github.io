@@ -22,7 +22,6 @@ body.dark-mode {
   color: #e0e0e0;
 }
 
-/* Header */
 header {
   background: #4a6fa5;
   color: white;
@@ -41,7 +40,6 @@ header h2 {
   font-weight: normal;
 }
 
-/* Nav */
 nav ul {
   display: flex;
   justify-content: center;
@@ -63,7 +61,6 @@ nav a:hover {
   opacity: 0.7;
 }
 
-/* Main content */
 main {
   max-width: 900px;
   margin: 3rem auto;
@@ -133,7 +130,6 @@ body.dark-mode li::before {
   color: #7bb3f0;
 }
 
-/* Button */
 button, .btn {
   background: #4a6fa5;
   color: white;
@@ -154,7 +150,6 @@ button:hover, .btn:hover {
   box-shadow: 0 12px 30px rgba(74, 111, 165, 0.4);
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 4rem 2rem 3rem;
@@ -197,7 +192,6 @@ body.dark-mode footer {
   transition: all 0.3s ease;
 }
 
-/* Tiny discreet dark mode toggle – top right */
 .theme-toggle {
   position: fixed;
   top: 20px;
@@ -221,7 +215,6 @@ body.dark-mode .theme-toggle:hover {
   background: rgba(0,0,0,0.3);
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   header h1 { font-size: 3rem; }
   header { padding: 4rem 1rem; }
